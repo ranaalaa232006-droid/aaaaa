@@ -1,0 +1,26 @@
+[
+  {
+    "name": "The Forest Hiker",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 37,
+    "price": 397,
+    "summary": "Breathtaking hike through the beautiful forest",
+    "description": "A beautiful hiking adventure through the forest with amazing views and unforgettable experiences.",
+    "imageCover": "tour-forest-hiker-cover.jpg"
+  },
+  {
+    "name": "The Sea Explorer",
+    "duration": 7,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 23,
+    "price": 497,
+    "summary": "Explore the beautiful sea and its hidden treasures",
+    "description": "Discover the beauty of the sea on this amazing adventure filled with incredible views and exciting experiences.",
+    "imageCover": "tour-sea-explorer-cover.jpg"
+  }
+]
