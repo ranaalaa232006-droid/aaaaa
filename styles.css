@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+/* Card style */
+.card {
+  position: relative;
+  border: 1px solid #000;
+  background: #f7f7f7;
+  padding: 16px;
+  margin: 10px;
+  float: left;
+  width: 100%; /* Mobile default */
+  min-height: 180px;
+}
+
+/* Section title */
+.card__title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-100%);
+  border: 1px solid #000;
+  background: #ffd54f;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+
+.card p {
+  margin-top: 8px;
+}
+
+/* Desktop ≥ 992px: 3 columns */
+@media (min-width: 992px) {
+  .card {
+    width: calc(33.333% - 20px);
+  }
+}
+
+/* Tablet 768–991px: first 2 half, last full */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+  .card:nth-of-type(3) {
+    width: calc(100% - 20px);
+  }
+}
+
+/* Mobile ≤ 767px */
+@media (max-width: 767px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}
